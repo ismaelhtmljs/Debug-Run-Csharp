@@ -28,6 +28,7 @@ class Program
             Console.WriteLine("[2]Ver Archivos dentro del proyecto");
             Console.WriteLine("[3]Moverse de escritorio");
             Console.WriteLine("[4]Crear Proyecto");
+            Console.WriteLine("[5]Abrir Vscode");
 
             string respuesta = Console.ReadLine();
 
@@ -120,6 +121,12 @@ class Program
                         LimpiarConsola();
                     }
                 }
+            }
+            else if (respuesta == "5")
+            {
+                string vscode_comand = "code .";
+                EjecutarComando(vscode_comand);
+                LimpiarConsola();
             }
 
             else if (respuesta == "exit")
