@@ -19,7 +19,7 @@ class Program
 
                                 Version : Beta 2.6  By : Ismaelxd74    Github : ismaelhtmljs 
                                     [-]puedes entrar a ver el repositorio en mi github
-                                             [*]https://github.com/ismaelhtmljs
+                                       [*]https://github.com/ismaelhtmljs/Debug-Run-Csharp
             ");
             Console.ForegroundColor = ConsoleColor.DarkMagenta;
             Console.WriteLine("Para salir del programa escriba 'exit'");
