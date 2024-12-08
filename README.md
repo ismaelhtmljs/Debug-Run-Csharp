@@ -6,3 +6,6 @@
 # imagenes del repositorio
 ![ ](imagen_2.png)
 ![ ](imagen_principal.png)
+
+# Recomendación 
+Recomiendo que el programa se ejecute por cmd con el comando `dotnet run` en la ruta del repositorio 
